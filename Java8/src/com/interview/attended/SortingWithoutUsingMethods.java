@@ -1,5 +1,8 @@
 package com.interview.attended;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class SortingWithoutUsingMethods {
     public static void main(String[] args) {
         int[] array = {2, 5, 3, 6, 1, 8, 4, 7};
@@ -7,6 +10,7 @@ public class SortingWithoutUsingMethods {
         for(int i : array){
             System.out.print(i + " ");
         }
+
     }
 
     public static void sortArray(int[] a){

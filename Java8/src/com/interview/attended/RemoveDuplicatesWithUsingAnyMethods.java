@@ -30,6 +30,6 @@ public class RemoveDuplicatesWithUsingAnyMethods {
             unique[i]=temp[i];
         }
 
-        return unique;
+        return temp;
     }
 }

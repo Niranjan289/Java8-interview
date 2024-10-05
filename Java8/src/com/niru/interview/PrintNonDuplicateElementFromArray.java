@@ -15,7 +15,7 @@ public class PrintNonDuplicateElementFromArray {
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
                 .entrySet().stream()
                 .filter(i-> i.getValue() == 1)
-                .map(Map.Entry::getKey)
-                .forEach(System.out::println);
+               // .map(Map.Entry::getKey)
+                .forEach(k-> System.out.println(k.getKey() + " - " + k.getValue()));
     }
 }
